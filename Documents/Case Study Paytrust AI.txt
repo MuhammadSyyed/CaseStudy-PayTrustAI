@@ -1,0 +1,27 @@
+AI Governance Lab: Student case study and practical
+exercises
+Case Study1.1
+
+Paytrust AI, a company processing digital payments in Pakistan. The AI technology team reports
+great success: their fraud detection model achieved a 96% accuracy rate during development.
+They wish to release it immediately. The product is submitted to the Quality assurance team to
+assure quality of the product before it goes up. However, the Quality assurance team gives a
+different picture. There are cases when legitimate payments were blocked. Think about paying for
+medicines or transferring money to your family, just to see how the transaction gets declined.
+Although the algorithm works effectively and catches the fraudulent activity, it can be causing
+troubles for legitimate customers as well. Moreover, there is a matter of PayTrust AI using
+another algorithm to approve loan requests. It looks like there are two groups of clients getting
+approved at significantly different rates. However, nobody has proved yet where the discrepancy
+originates: from the clients themselves, data, algorithms or decision-making process. You are
+part of the AI governance review committee. The Chief Technology Officer asks you what steps
+should be taken next: release the product, conduct a small controlled pilot or halt the release
+process altogether. Your task is to analyze the facts and come up with a decision that would
+satisfy both client and auditor.
+
+How the lab works
+The accompanying Colab notebook provides you with transactions that are simulated, a fraud
+detection model, the cost of errors, loan approval statistics, governance, assumptions about
+human reviews and monitoring. Go through it step by step. The numbers are instructional
+illustrations and not proof of anything in the financial services industry.
+Important: the fraud detection system and loan approval system need separate decisions. A good fraud
+result does not automatically make the loan system safe.
